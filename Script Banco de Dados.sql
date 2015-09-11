@@ -1,4 +1,5 @@
-
+CREATE DATABASE biblioteca;
+USE biblioteca;
 -- --------------------------------------------------------
 
 --
@@ -53,7 +54,6 @@ INSERT INTO `livro` (`nome`, `escritor`, `anoedicao`, `classificacao`) VALUES
 ('O Código Da Vinci', 'Dan Brown', 2007, 18),
 ('Anjos e Demonios', 'Dan Brown', 2005, 18),
 ('Histórias Infantis', 'Historiador', 2015, 8);
-('Histórias Testes', 'Testador', 2015, 8);
 
 
 
